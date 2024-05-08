@@ -13,7 +13,7 @@ export function Post() {
 
   const fetchPost = useCallback(async () => {
     const response = await api.get<PostsProps>(
-      `/repos/andreviapiana/github-blog/issues/${params.issueNumber}`,
+      `/repos/phcatanduba/phpage/issues/${params.issueNumber}`,
     )
 
     setPostData(response.data)

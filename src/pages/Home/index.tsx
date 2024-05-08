@@ -32,7 +32,7 @@ export function Home() {
     const response = await api.get<SearchPostsProps>(
       `search/issues?q=${
         query ? query + '%20' : ''
-      }repo:andreviapiana/github-blog
+      }repo:phcatanduba/phpage
       `,
     )
 
